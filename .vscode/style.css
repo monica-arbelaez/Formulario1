@@ -1,106 +1,22 @@
 body{
-    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    grid-template-areas: "main"
-                         "header"
-                         "fieldset"
-                         "footer";
-    grid-template-rows: auto 10% 90%  10%;                       
 }
+
 main{
-    background-color: rgb(67, 9, 75);
-    flex-direction: auto;
-    justify-content: center;
-    text-align: center;
-    padding: 10%;
-    border-radius: 2%;
-
-}
-header #title{
-    flex-direction: auto;
-    justify-content: start;
-    text-align: center;
-    color: white;
-    margin: auto;
-    padding: 10px;
-}
-form #survey-form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align:start; 
-    border-radius: 2%;
-    margin:10px;
-    padding: 90px;
-    
+    align-items: center;
+    width: 1000px;
 }
-form #name{
-    font-size:24px;
-    margin: auto;
-     color: black;
+
+main form{
+    background-color: green;
     display: flex;
     flex-direction: column;
-
-}
-label{
-    color: white;
-}
-form #input-2{
-    font-size:24px;
-    margin: auto;
-     color: black;
-    display: flex;
-    flex-direction: column;
-    
-
-}
-form #input-3{
-    font-size:24px;
-    margin: auto;
-    color: black;
-    display: flex;
-    flex-direction: column;
-
-
-}
-form #input-4{
-    font-size:24px;
-    margin: auto;
-    color: black;
-    display: flex;
-    flex-direction: column;
-
-}
-form #input-5{
-    font-size:24px;
-    margin: auto;
-    color: black;
-    display: flex;
-    flex-direction: column;
-
-}
-main #checbox{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    font-size:15px;
-    justify-content: center;
-    text-decoration: none;
-    padding: 6px;
-    border: solid 2px white;
-    text-transform: uppercase;
+    padding: 5%;
 }
 
-footer button:hover{
-    cursor: pointer;
-
+main form label{
+    margin: 10px 0px 10px 0px;
 }
-input[type=text]{
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-     border-radius: 20px;
-     width: 250px;
-     height: 30px;
-     padding-left: 10px;
-    }
